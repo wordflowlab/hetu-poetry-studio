@@ -1,8 +1,8 @@
 {
   "recorded_at": "2026-11-19",
   "host_version": "0.12.6",
-  "package_sha256": "b3b49e1f0ad1d1e46772b6183f290643f0b884a18842858d5a4f07cf8acbb251",
-  "basis": "公开签名公证宿主的隔离安装，原创演示材料；实际查看五页浅暗正常／窄窗和专业操作。",
+  "package_sha256": "afa1c6acbde209b8c8f71c0e6d95f228101d3d5770ec8d1dacf2b5e5c99052c0",
+  "basis": "最终冻结包在公开签名公证宿主0.12.6及干净macOS运行器的实际工作面与完整业务验收；本机复核和旧失败分别保留。",
   "scores": {
     "layout": 9,
     "spacing_alignment": 9,
@@ -26,127 +26,127 @@
   "files": [
     {
       "file": "evidence/work-surfaces/dark-1360-view-0.png",
-      "sha256": "23c60178b6db92a7148f25e897e43797c889dbecfb22523a913cff69de9ea88f"
+      "sha256": "756d81215f45c74a322503fba24dd22707d13ff18ab7951b188af2565d404866"
     },
     {
       "file": "evidence/work-surfaces/dark-1360-view-1.png",
-      "sha256": "95e38c3cddfce8cf41f51ade24c1cb0e7ab948d460f4c1a17e3b8b616e106c46"
+      "sha256": "f0e7ef680fdd20b75d14cddb7754982ce7f69db0ef36d5d5d500cd93bb1b1181"
     },
     {
       "file": "evidence/work-surfaces/dark-1360-view-2.png",
-      "sha256": "b3790e31d672df68fce380d56de36742bbeeb632b38555eb1c757e4bb731ac4a"
+      "sha256": "c91e2ac0b12f948f3d3cd0d2259a1daf046aec74a46a6b49bb88d9430b6dd574"
     },
     {
       "file": "evidence/work-surfaces/dark-1360-view-3.png",
-      "sha256": "bf45aefc3614f2558492118ff1e224036b43cb9438b2dbc4c937555e1f8a48e4"
+      "sha256": "53a3e4653d61f6c4703bbba59df71d5582068cd3dfeea35c3ad93b07aea31604"
     },
     {
       "file": "evidence/work-surfaces/dark-1360-view-4.png",
-      "sha256": "eb798f1495022a0edad7a25461bd4fc38c64125863f95f0a2f40b174fa18bfdb"
+      "sha256": "a831196aa3cd1c68526bd4e06b9c2c25b8a5003e9d51f29eeb04f0b1f92830ba"
     },
     {
       "file": "evidence/work-surfaces/dark-1360.png",
-      "sha256": "1575169f5159400506faf8bce55ca64a729897100bf328209ef846abb114ff7f"
+      "sha256": "3507e1471085a229f1b2ba475498d674db0792be8f5c3793f4b892ee3cbdf7a4"
     },
     {
       "file": "evidence/work-surfaces/dark-760-view-0.png",
-      "sha256": "ab0cbd909d29375521b63e42f7e2fb636487cd89584583e64b85890cb310bc1f"
+      "sha256": "f1ebd0570c3609d0d717b67662b9dca5431893df22737f8aee2755e57a53788b"
     },
     {
       "file": "evidence/work-surfaces/dark-760-view-1.png",
-      "sha256": "88586b4b14475c77c72e4f8b8f99d8efc286c5029d7d0f5c132d86efd184c09c"
+      "sha256": "856fdbaa30c690c3c884d0c026b36af9ce05e946ec218e5c3a0750dee4d28240"
     },
     {
       "file": "evidence/work-surfaces/dark-760-view-2.png",
-      "sha256": "a4021ab2c83a4fd94dab56e9b6463d28e4cba6d253602e4515131b27bf9792d7"
+      "sha256": "68cf33a6fbc599508f1dcfe44308801372a61f5ab13adb6c41be8bf86bf03c4c"
     },
     {
       "file": "evidence/work-surfaces/dark-760-view-3.png",
-      "sha256": "9e47c669d1b97adab83d8ebea2449953170dff1d937903d25e9dc0b284cccc38"
+      "sha256": "849ce84dfe40b42963bce0c076272aafc09004d724d95bf33fce132d7bf74967"
     },
     {
       "file": "evidence/work-surfaces/dark-760-view-4.png",
-      "sha256": "cbc101af4631f9794c6658931767cbd781bd185f54e4c59631ae8860ca841b49"
+      "sha256": "aaf557a0f4c29e4ae610a1bcb4c10c2a8d4b05f97edf499a3cdca88f9d352f93"
     },
     {
       "file": "evidence/work-surfaces/dark-760.png",
-      "sha256": "cbc101af4631f9794c6658931767cbd781bd185f54e4c59631ae8860ca841b49"
+      "sha256": "228374a3a92cd78cd045e359e753d689227a8d939cdb0e4987d47e106ab8ccb5"
     },
     {
       "file": "evidence/work-surfaces/empty.png",
-      "sha256": "cde746bd0753af59f53b5d181f06ed54f4fb410b9e3891e4c3a078837dbf9ad9"
+      "sha256": "6d26169892f3a934580e07120d48004daf33a83f53419dceb2e08e9e5d4c35ad"
     },
     {
       "file": "evidence/work-surfaces/light-1360-view-0.png",
-      "sha256": "81689b689e30f919c0c61c182a1be95b03106a2d2dfaa294f3c68689faa7ca3d"
+      "sha256": "bf0ef33383a3268ec2c73f0a603ed7dfbe85e5faab5c9df6bb97aa3bca74d4b4"
     },
     {
       "file": "evidence/work-surfaces/light-1360-view-1.png",
-      "sha256": "55c41feed832f6a5772db40524dd238d2497d9a2b82be75f8361ef215e334801"
+      "sha256": "e2198b84700e7a342a3330cf504e8a94e2a52f56e0b57abff8411d274342a700"
     },
     {
       "file": "evidence/work-surfaces/light-1360-view-2.png",
-      "sha256": "70abec9de6ac85c9a0ad35d2caa488d020674cf491ec0f106528d61bc1283181"
+      "sha256": "7f0e8cbc6284ac668e3c1131b2767cfbd928e0c2e16d7b1e140aa0076cf33df0"
     },
     {
       "file": "evidence/work-surfaces/light-1360-view-3.png",
-      "sha256": "11d446a0d915251ce054ccfbd5d280ea5a669cbb540aaa6e1063202ffc65e5c9"
+      "sha256": "aa03843532a6f1012bedf8372edc0ca3c0631bddac138f5463205de86bbbe290"
     },
     {
       "file": "evidence/work-surfaces/light-1360-view-4.png",
-      "sha256": "b9648a8c709df661e8789cb3d232cfa9499294f3b48bd52b648f0a4fae83c937"
+      "sha256": "e5ed655c281bca55547fafd69673ccb10da1587432b2e7532999d2b1046e3624"
     },
     {
       "file": "evidence/work-surfaces/light-1360.png",
-      "sha256": "6ead135670a2282f29a556dc07eb599bf9d1e78e088bd634803d09a4e7262f6f"
+      "sha256": "bb247a6527b3a13f9080b43befbbb3ef7275807212c8cc21f85afd90bb90903d"
     },
     {
       "file": "evidence/work-surfaces/light-760-view-0.png",
-      "sha256": "e4fba6c5ac6794be55eb84633d0f03cdca1feeac429c46cd8f83d8d12d6dc84d"
+      "sha256": "98d1053267096d650ffa852ef283be6537fe146f6ce55028b49b8b69abc38455"
     },
     {
       "file": "evidence/work-surfaces/light-760-view-1.png",
-      "sha256": "ef4ec399556db2c6a37b5f38ac36f4c35425c4fa6837312f0b708a44cfc9f81d"
+      "sha256": "88986c52a3e3b1be9bbdcc463bdcf5da5af7e57cd399e347417b7b5e5ee4c6e8"
     },
     {
       "file": "evidence/work-surfaces/light-760-view-2.png",
-      "sha256": "b3b8aa6ed2aefa59cc4a5eeec074599a222d1ad3ccd9f32ec120df3870009394"
+      "sha256": "7913a31bfbd5b7bf07f2f6a74b1529e9080fe81e012d4dd86bcd4dec2cd39505"
     },
     {
       "file": "evidence/work-surfaces/light-760-view-3.png",
-      "sha256": "3892968427e6d69c3b6cf1b64141230534af88f15e2797eeb1caf081a8dcef86"
+      "sha256": "34d839843383e0ae62e9a56d63c900a7fe47b2d0d22401bb9224f3d440e8b0e2"
     },
     {
       "file": "evidence/work-surfaces/light-760-view-4.png",
-      "sha256": "c228df61357996eb46d2e87b22787dbf74ef5580e64d76e4383bbdb7f4f38e90"
+      "sha256": "acb70beb5b6d337834402ad151b08a560267aa23e8683086217939a4ccf120e9"
     },
     {
       "file": "evidence/work-surfaces/light-760.png",
-      "sha256": "5bb47eca57785fc53bd17523e9e73770f3483f307fa9c8f19d06937ef0e4b4ff"
+      "sha256": "5dc58841b6c6bb0e9cc9a9fe95ab4d0374a02041d62ca290d5940fbe56fb1725"
     },
     {
       "file": "evidence/work-surfaces/reduced-transparency.png",
-      "sha256": "07c3c88f9ae30fac3af8d1203971a3c682d8bd0a9bf5f1f07bdf2bf315871b15"
+      "sha256": "466d61f22be2926e4a3cd15bf7dc6844e725c96558a105e857df642a6707e067"
     },
     {
       "file": "evidence/work-surfaces/view-0.png",
-      "sha256": "57ad5be962bd42eb8f9f445d9e7bc9fd7be9a160ab583afe9c3e9b0e073e6ad8"
+      "sha256": "4094111e03a340d592d1e4215b954b9c45c47bfb232aba104f35a62eb8b311a7"
     },
     {
       "file": "evidence/work-surfaces/view-1.png",
-      "sha256": "7deb7576ee48e922f09cf4ae3ed02f0d0d5111766e6cf1c0c99d0370d8bbab1a"
+      "sha256": "e42c74163b60633cfa93cebec79b90ac7ff2c708ef62100e6afdc1f56357849b"
     },
     {
       "file": "evidence/work-surfaces/view-2.png",
-      "sha256": "5da8ae1fde741eda39e8abe60ea712f72eb8d9203d2c9655c32cb20c5cdf5e89"
+      "sha256": "5ef13cd318157b3f161d9db760aa96b0cf7c6017b6365e649635e5752f8ae0ab"
     },
     {
       "file": "evidence/work-surfaces/view-3.png",
-      "sha256": "a16d3f2fef1fa45dcc6af26779250ee4a592f7ecf5ec88039c312c9de3c0726d"
+      "sha256": "9a08a2fc54d0e55a221459f7f5ec97e34d7207de703d8be09f6fe857355aece3"
     },
     {
       "file": "evidence/work-surfaces/view-4.png",
-      "sha256": "ed11a964b016ec0c206b6b74f8b5b13971af1cd39440bf2bfdcebd9077c67933"
+      "sha256": "f34fffd7225af7201101345ec4fe50f9234662d1ee60bf74cbc7a90b87c21edb"
     }
   ]
 }
