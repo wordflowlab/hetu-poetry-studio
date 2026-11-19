@@ -1,0 +1,8 @@
+{
+  "release": "https://github.com/wordflowlab/hetu-poetry-studio/releases/tag/v0.1.0",
+  "source_commit": "ceaa7c624f8f40823fda0dbbfb05401bb49653d3",
+  "archive_sha256": "639f305f89cf156b9c3154957783124624e6a949b99e57816e6c2e6f4221578b",
+  "package_sha256": "afa1c6acbde209b8c8f71c0e6d95f228101d3d5770ec8d1dacf2b5e5c99052c0",
+  "files_byte_identical": 18,
+  "verified": true
+}

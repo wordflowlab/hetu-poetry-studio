@@ -1,0 +1,45 @@
+{
+  "recorded_at": "2026-11-19",
+  "state": "deployed_and_verified",
+  "origin": "https://hetu.limeai.run",
+  "deployment": "https://3a821705.hetu-website-3uu.pages.dev",
+  "deployed_source_commit": "ef0a66f23dade89219c3b8929a207a722a067ca4",
+  "plugin_release": {
+    "release": "https://github.com/wordflowlab/hetu-poetry-studio/releases/tag/v0.1.0",
+    "source_commit": "ceaa7c624f8f40823fda0dbbfb05401bb49653d3",
+    "archive_sha256": "639f305f89cf156b9c3154957783124624e6a949b99e57816e6c2e6f4221578b",
+    "package_sha256": "afa1c6acbde209b8c8f71c0e6d95f228101d3d5770ec8d1dacf2b5e5c99052c0",
+    "files_byte_identical": 18,
+    "verified": true
+  },
+  "routes": [
+    {
+      "route": "/plugins/poetry-studio/",
+      "status": 200,
+      "raw_sha256": "6b7099b6969176d10d3465025c20fa30f8bef2c74ca8ab9fb23e24d966b65dc4",
+      "expected_sha256": "6b7099b6969176d10d3465025c20fa30f8bef2c74ca8ab9fb23e24d966b65dc4",
+      "observed_changes": [],
+      "matches_build": true
+    },
+    {
+      "route": "/en/plugins/poetry-studio/",
+      "status": 200,
+      "raw_sha256": "3853af5a185b66d8e3002529c947438f6fe9f01a5189dbdac828baf715e55d02",
+      "expected_sha256": "3853af5a185b66d8e3002529c947438f6fe9f01a5189dbdac828baf715e55d02",
+      "observed_changes": [],
+      "matches_build": true
+    },
+    {
+      "route": "/plugins/poetry-studio.png",
+      "status": 200,
+      "raw_sha256": "bf0ef33383a3268ec2c73f0a603ed7dfbe85e5faab5c9df6bb97aa3bca74d4b4",
+      "expected_sha256": "bf0ef33383a3268ec2c73f0a603ed7dfbe85e5faab5c9df6bb97aa3bca74d4b4",
+      "observed_changes": [],
+      "matches_build": true
+    }
+  ],
+  "website_local_checks_passed": 48,
+  "website_production_checks_passed": 48,
+  "scope": "三包联合官网专项：中英分类检索、固定制品、真实工作面、375/768/1440、键盘、禁用脚本及剪贴板降级",
+  "owner_evidence": "https://github.com/limecloud/hetu/blob/main/docs/research/evidence/literary-studios-release-2026-11-19.json"
+}
