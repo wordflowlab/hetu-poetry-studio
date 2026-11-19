@@ -1,0 +1,16 @@
+{
+  "peers": [
+    {
+      "slug": "nonfiction-studio",
+      "source_commit": "0a4f608aaecf31138c23d45e124dcafbe97fc61a",
+      "package_sha256": "44948e7bbf73adf574cce6339fcbad0af4b98f1f8144dc2a3ce4bed959e931d0",
+      "scope": "仅固定组合测试，不是运行时强制安装依赖"
+    },
+    {
+      "slug": "biography-studio",
+      "source_commit": "c1b098ea64bb4bac1ea63fd821f7b79fff266978",
+      "package_sha256": "adc1059687c38b1f8eabaf55193e1b4664651201e40b244c4bd8ec51dace21dd",
+      "scope": "仅固定组合测试，不是运行时强制安装依赖"
+    }
+  ]
+}
