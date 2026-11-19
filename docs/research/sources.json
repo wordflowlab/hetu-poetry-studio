@@ -1,0 +1,36 @@
+[
+  {
+    "repository": "https://github.com/Crowtyard/chinese-poetry-prosody.git",
+    "commit": "7423b459a0f30acd49f0ff5539381acb8a507cec",
+    "license_and_scope": "未发现独立许可证，仅作只读设计研究，不复制代码或字表",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "0d43901f1f797b57c55a39f32c973baab9eb389b89569b9bd58b7a8c5cd47a54"
+      },
+      {
+        "path": "scripts/prosody_core.py",
+        "sha256": "738599dcb1f4732ae0870bd8982f0ea1358f26c1612df870dcd355eebcc6c6a5"
+      }
+    ]
+  },
+  {
+    "repository": "https://github.com/quadrismegistus/prosodic.git",
+    "commit": "07016977b449a43c866d0fb75f9f7037cad243ad",
+    "license_and_scope": "GPL-3.0；只读方法研究，不复制代码、字表或模型",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "4991dd090a2ff44d884c30b75417a40bdbac11ace90f1ae5272ffe0abc39731e"
+      },
+      {
+        "path": "LICENSE.md",
+        "sha256": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2"
+      },
+      {
+        "path": "prosodic/parsing/meter.py",
+        "sha256": "f88121a559a3d64d4cfd384fdeecbd9622368f287cae357553e28f3d3507f096"
+      }
+    ]
+  }
+]

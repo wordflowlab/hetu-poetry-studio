@@ -1,0 +1,2 @@
+import {useState,useEffect} from 'react';
+export function useProfessionalReport({selection,invoke,run,tab}:any,action:string){const [state,setState]=useState<any>();const ref=selection(),key=ref.object_id+':'+ref.revision+':'+tab;useEffect(()=>{let active=true;void run(async()=>{const value=await invoke(action,ref);if(active)setState({key,value});});return()=>{active=false;};},[key,action]);return state?.key===key?state.value:undefined;}

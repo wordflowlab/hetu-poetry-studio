@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://www.rhymezone.com/",
+    "date": "2026-11-19",
+    "scope": "只读公开页面，不登录、不生成、不将营销主张当业务验收",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.rhymedesk.com/",
+    "date": "2026-11-19",
+    "scope": "只读公开页面，不登录、不生成、不将营销主张当业务验收",
+    "status": 200,
+    "final_url": "https://www.rhymedesk.com/",
+    "title": "Rhyme Desk - Rhyming Dictionary",
+    "sha256": "3072a153b1648253e68cd2957fd65d1c17520f80583f91c4468556e37608301d"
+  }
+]
