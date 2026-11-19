@@ -2,7 +2,10 @@
 * {
   box-sizing: border-box;
 }
+html { min-height:100%; background:var(--page); }
 body {
+  min-height:100vh;
+  display:flow-root;
   margin: 0;
   background: var(--workbench-background);
   background-attachment: scroll;
@@ -315,3 +318,5 @@ details[open] {
 
 
 .reading{background:var(--paper);padding:24px;max-width:940px}.reading p{font-size:18px;line-height:1.9}.reading section+section{margin-top:28px}.reading h3{margin-bottom:12px}.work-layout{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:32px}.side{display:grid;align-content:start;gap:12px}.poem-lines{white-space:pre-wrap}.entry-row{padding:12px 0;border-bottom:.5px solid var(--line)}.entry-row h3{margin-bottom:6px}.table-scroll{overflow:auto;max-width:100%}table{width:100%;border-collapse:collapse;margin:16px 0}th,td{text-align:left;vertical-align:top;padding:10px;border-bottom:.5px solid var(--line)}td p+small{display:block}.badge{font-size:12px;color:var(--muted)}.warning{color:var(--danger-ink)}.timeline{list-style:none;padding:0}.timeline li{padding:16px 0;border-bottom:.5px solid var(--line)}.quote{white-space:pre-wrap;padding:12px 16px;background:var(--paper);margin:8px 0;border:0}.parallel{display:grid;grid-template-columns:1fr 1fr;gap:16px}.annotation{font-size:12px;color:var(--muted)}label{display:grid;gap:6px;font-size:12px}.actions{margin:12px 0}details{margin:16px 0}summary{cursor:pointer}small{font-size:12px}a{color:var(--jade-11)}a:focus-visible{outline:2px solid var(--jade-8);outline-offset:2px}@media(max-width:800px){.work-layout,.parallel{grid-template-columns:1fr}.reading{padding:16px}.side{padding-top:16px}td,th{padding:8px}}
+
+.side{border:0;background:transparent;backdrop-filter:none;padding:0;margin:0;max-height:none;overflow:visible}
