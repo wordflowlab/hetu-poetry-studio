@@ -30,7 +30,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: wordflowlab/hetu-biography-studio
-          ref: e9a1decc119ea38624fa4baee22aae6de5363439
+          ref: e19d82c12ba2d456892e3dd123cd91d39eca992e
           path: hetu-biography-studio
           persist-credentials: false
       - uses: actions/setup-node@v4
