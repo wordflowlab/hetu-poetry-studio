@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-19T04:17:43.134Z",
+  "plugin_id": "org.wordflowlab.poetry-studio",
+  "package_sha256": "b3b49e1f0ad1d1e46772b6183f290643f0b884a18842858d5a4f07cf8acbb251",
+  "host_version": "hetu 0.12.6",
+  "surface_origin": "fixed-packaged-host",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "tabs": [
+    "诗集阅读",
+    "音韵与形式",
+    "用典依据",
+    "逐句比较",
+    "诗集交付"
+  ],
+  "empty_state": true,
+  "professional_actions": true,
+  "artifact_files": [
+    "诗词审核本.html",
+    "诗集阅读本.txt"
+  ],
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "widths": [
+    1360,
+    760
+  ],
+  "reduced_transparency": true,
+  "CAS_preserves_input": true,
+  "explicit_rebase": true,
+  "close_reopen": true,
+  "dirty_buffer_restore": true,
+  "page_errors": [],
+  "limits": [
+    "原生窗口材质、系统输入法及Windows/Linux未由本测试证明"
+  ]
+}

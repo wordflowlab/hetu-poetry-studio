@@ -1,0 +1,9 @@
+erDiagram
+ PROJECT ||--o{ POEM : owns
+ POEM ||--o{ STANZA : orders
+ STANZA ||--o{ LINE : contains
+ PROFILE ||--o{ POEM : constrains
+ LINE ||--o{ READING : declares
+ LINE ||--o{ VARIANT : compares
+ LINE ||--o{ NOTE : reviews
+ POEM ||--o{ IMPORT : preserves

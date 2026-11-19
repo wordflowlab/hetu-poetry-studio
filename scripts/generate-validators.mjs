@@ -1,3 +1,4 @@
+await import("./sync-project-schema.mjs");
 import { readFile, writeFile } from "node:fs/promises";
 import { Ajv } from "ajv";
 import standalone from "ajv/dist/standalone/index.js";

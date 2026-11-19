@@ -2,7 +2,7 @@
 
 ## 格式与数据库
 
-manifest_version=1、Host API=1、format_version=1、专业schema_version=1.0.0。可执行字段及动作参数由`contracts/plugin-manifest.json`维护；构建期Ajv生成静态校验器，后端不使用eval，视图不编译Schema。
+manifest_version=1、Host API=1、format_version=1、专业schema_version=1.0.0。可执行字段及动作参数由`contracts/plugin-manifest.json`维护；完整保存和put集合动作的内容Schema由专业数据Schema自动派生，避免重复字段漂移；构建期Ajv生成静态校验器，后端不使用eval，视图不编译Schema。
 
 复用Core专业对象与不可变JSON修订，无独立SQL库、Migration、原稿目录或第三方账户。身份键为WorkRef＋owner_plugin_id＋object_id，固定版本为revision＋sha256，更新必须CAS。单工程512KiB、最多100来源；每类专业集合设明确上限，字段及精确限制以可执行Schema为准。
 

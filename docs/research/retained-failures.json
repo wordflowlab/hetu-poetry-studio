@@ -1,0 +1,22 @@
+{
+  "recorded_at": "2026-11-19",
+  "retained": [
+    {
+      "stage": "source checks",
+      "reason": "初次夹具128小于当前上下文Schema下限256，类型检查发现残留音频测试导入。",
+      "resolution": "按实际合同修正测试输入与无用导入，业务预算未改。"
+    },
+    {
+      "stage": "official UI",
+      "reason": "旧后台报告复用全局run，切换基线时清空已读取最新基线提示。首轮三包machine/cross成功、ui失败。",
+      "resolution": "后台报告采用独立状态与错误展示，原CAS断言保留；修复后本机三包完整通过。"
+    },
+    {
+      "stage": "current conversation verification",
+      "reason": "初次核对误用状态字段plugin_id与作品根sha256。",
+      "resolution": "重读同一原回执的id、summary.fixed_ref与完整record；原作品和其他29包保持，未重发写入。"
+    }
+  ],
+  "first_official_run": 44456639617,
+  "boundary": "高负载观察不自动归为产品失败；本轮正式机器及修复后界面已有实际通过证据。"
+}

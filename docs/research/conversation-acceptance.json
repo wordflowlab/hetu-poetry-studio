@@ -1,0 +1,341 @@
+{
+  "recorded_at": "2026-11-19T04:13:54.285Z",
+  "entry": "当前Codex会话经公开0.12.6 CLI连续执行，包内Skill热发现另由既有MCP验证",
+  "host_version": "0.12.6",
+  "package_sha256": "b3b49e1f0ad1d1e46772b6183f290643f0b884a18842858d5a4f07cf8acbb251",
+  "work_ref": {
+    "workspace_id": "workspace_01abb9b1-8e4a-46ac-a8ee-82d200f35875",
+    "kind": "novel",
+    "object_id": "novel_c070a2bc-10f4-4b55-a61b-981caa46f1ac"
+  },
+  "original": {
+    "object_id": "ext_1d650b88-f776-47ba-a9a2-cb828d2f3f3f",
+    "revision": 1,
+    "sha256": "d96e96eb36cf38150051ffa06ba30b507594df691092f436aee3ed86ff39196a"
+  },
+  "revised": {
+    "object_id": "ext_1d650b88-f776-47ba-a9a2-cb828d2f3f3f",
+    "revision": 2,
+    "sha256": "bc62d1bd5ef6c4f09911a674743874b340a93ccfcd2be5483cddda2cab70c688"
+  },
+  "checks_before": {
+    "basis_ref": {
+      "object_id": "ext_1d650b88-f776-47ba-a9a2-cb828d2f3f3f",
+      "owner_plugin_id": "org.wordflowlab.poetry-studio",
+      "revision": 1,
+      "sha256": "d96e96eb36cf38150051ffa06ba30b507594df691092f436aee3ed86ff39196a"
+    },
+    "empty_poem_ids": [],
+    "poems": [
+      {
+        "groups": [
+          {
+            "group": "A",
+            "keys": [
+              "ian",
+              "ian"
+            ],
+            "line_ids": [
+              "line",
+              "second"
+            ],
+            "status": "declared_match"
+          }
+        ],
+        "lines": [
+          {
+            "declared_tones": "ZZZZP",
+            "expected_units": 5,
+            "id": "line",
+            "length_ok": true,
+            "line_no": 1,
+            "mismatches": [
+              {
+                "actual": "Z",
+                "expected": "P",
+                "position": 1
+              },
+              {
+                "actual": "Z",
+                "expected": "P",
+                "position": 3
+              }
+            ],
+            "pattern": "PZPZP",
+            "rhyme_group": "A",
+            "rhyme_key": "ian",
+            "rule_missing": false,
+            "text": "雨落旧站前",
+            "units": 5,
+            "unknown_positions": []
+          },
+          {
+            "declared_tones": "PPZZP",
+            "expected_units": 5,
+            "id": "second",
+            "length_ok": true,
+            "line_no": 2,
+            "mismatches": [],
+            "pattern": "PPZZP",
+            "rhyme_group": "A",
+            "rhyme_key": "ian",
+            "rule_missing": false,
+            "text": "灯留未寄笺",
+            "units": 5,
+            "unknown_positions": []
+          }
+        ],
+        "note": "只核对明确体系和声明规则，不认证诗意、传统整诗或听觉效果。",
+        "poem": {
+          "form": "declared",
+          "id": "poem",
+          "intent": "保留夜灯和未寄的笺",
+          "order": 1,
+          "profile_id": "form",
+          "title": "旧站夜信"
+        },
+        "profile": {
+          "id": "form",
+          "rules": [
+            {
+              "line_no": 1,
+              "rhyme_group": "A",
+              "tones": "PZPZP",
+              "units": 5
+            },
+            {
+              "line_no": 2,
+              "rhyme_group": "A",
+              "tones": "PPZZP",
+              "units": 5
+            }
+          ],
+          "source_note": "作者提供的测试规则，只核验声明，不引用韵书。",
+          "system": "明确字位平仄，非传统整诗认证",
+          "title": "五字测试声明"
+        },
+        "rule_count_matches": true,
+        "status": "issues"
+      },
+      {
+        "groups": [],
+        "lines": [
+          {
+            "declared_tones": "?????????",
+            "expected_units": null,
+            "id": "free-line",
+            "length_ok": true,
+            "line_no": 1,
+            "mismatches": [],
+            "pattern": "",
+            "rhyme_group": null,
+            "rhyme_key": null,
+            "rule_missing": false,
+            "text": "我把潮声留在空白里",
+            "units": 9,
+            "unknown_positions": []
+          }
+        ],
+        "note": "只核对明确体系和声明规则，不认证诗意、传统整诗或听觉效果。",
+        "poem": {
+          "form": "free",
+          "id": "free",
+          "intent": "以留白表现等待",
+          "order": 2,
+          "profile_id": null,
+          "title": "等潮"
+        },
+        "profile": null,
+        "rule_count_matches": true,
+        "status": "free_form"
+      }
+    ],
+    "project_ref": {
+      "object_id": "ext_1d650b88-f776-47ba-a9a2-cb828d2f3f3f",
+      "revision": 1,
+      "sha256": "d96e96eb36cf38150051ffa06ba30b507594df691092f436aee3ed86ff39196a"
+    },
+    "stale_note_ids": [],
+    "stale_variant_ids": []
+  },
+  "checks_after": {
+    "basis_ref": {
+      "object_id": "ext_1d650b88-f776-47ba-a9a2-cb828d2f3f3f",
+      "owner_plugin_id": "org.wordflowlab.poetry-studio",
+      "revision": 2,
+      "sha256": "bc62d1bd5ef6c4f09911a674743874b340a93ccfcd2be5483cddda2cab70c688"
+    },
+    "empty_poem_ids": [],
+    "poems": [
+      {
+        "groups": [
+          {
+            "group": "A",
+            "keys": [
+              null,
+              "ian"
+            ],
+            "line_ids": [
+              "line",
+              "second"
+            ],
+            "status": "unknown"
+          }
+        ],
+        "lines": [
+          {
+            "declared_tones": "?????",
+            "expected_units": 5,
+            "id": "line",
+            "length_ok": true,
+            "line_no": 1,
+            "mismatches": [],
+            "pattern": "PZPZP",
+            "rhyme_group": "A",
+            "rhyme_key": null,
+            "rule_missing": false,
+            "text": "雨落长亭前",
+            "units": 5,
+            "unknown_positions": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "declared_tones": "PPZZP",
+            "expected_units": 5,
+            "id": "second",
+            "length_ok": true,
+            "line_no": 2,
+            "mismatches": [],
+            "pattern": "PPZZP",
+            "rhyme_group": "A",
+            "rhyme_key": "ian",
+            "rule_missing": false,
+            "text": "灯留未寄笺",
+            "units": 5,
+            "unknown_positions": []
+          }
+        ],
+        "note": "只核对明确体系和声明规则，不认证诗意、传统整诗或听觉效果。",
+        "poem": {
+          "form": "declared",
+          "id": "poem",
+          "intent": "保留夜灯和未寄的笺",
+          "order": 1,
+          "profile_id": "form",
+          "title": "旧站夜信"
+        },
+        "profile": {
+          "id": "form",
+          "rules": [
+            {
+              "line_no": 1,
+              "rhyme_group": "A",
+              "tones": "PZPZP",
+              "units": 5
+            },
+            {
+              "line_no": 2,
+              "rhyme_group": "A",
+              "tones": "PPZZP",
+              "units": 5
+            }
+          ],
+          "source_note": "作者提供的测试规则，只核验声明，不引用韵书。",
+          "system": "明确字位平仄，非传统整诗认证",
+          "title": "五字测试声明"
+        },
+        "rule_count_matches": true,
+        "status": "unknown"
+      },
+      {
+        "groups": [],
+        "lines": [
+          {
+            "declared_tones": "?????????",
+            "expected_units": null,
+            "id": "free-line",
+            "length_ok": true,
+            "line_no": 1,
+            "mismatches": [],
+            "pattern": "",
+            "rhyme_group": null,
+            "rhyme_key": null,
+            "rule_missing": false,
+            "text": "我把潮声留在空白里",
+            "units": 9,
+            "unknown_positions": []
+          }
+        ],
+        "note": "只核对明确体系和声明规则，不认证诗意、传统整诗或听觉效果。",
+        "poem": {
+          "form": "free",
+          "id": "free",
+          "intent": "以留白表现等待",
+          "order": 2,
+          "profile_id": null,
+          "title": "等潮"
+        },
+        "profile": null,
+        "rule_count_matches": true,
+        "status": "free_form"
+      }
+    ],
+    "project_ref": {
+      "object_id": "ext_1d650b88-f776-47ba-a9a2-cb828d2f3f3f",
+      "revision": 2,
+      "sha256": "bc62d1bd5ef6c4f09911a674743874b340a93ccfcd2be5483cddda2cab70c688"
+    },
+    "stale_note_ids": [
+      "note"
+    ],
+    "stale_variant_ids": [
+      "variant"
+    ]
+  },
+  "original_operation_preserved": true,
+  "previous_revision_preserved": true,
+  "upstream_basis": [],
+  "adopted": false,
+  "finalized": false,
+  "fixture": "原创虚构人物与材料，不是真人采访或历史事实认证",
+  "existing_other_states_preserved": 29,
+  "original_work_fixed_ref": {
+    "revision_ref": {
+      "revision": 1
+    },
+    "sha256": "6577f6a191a8b6889c1c769db9f18e6afeb47e07359c92b47f259514ad33aaaf",
+    "work_ref": {
+      "kind": "novel",
+      "object_id": "novel_c070a2bc-10f4-4b55-a61b-981caa46f1ac",
+      "workspace_id": "workspace_01abb9b1-8e4a-46ac-a8ee-82d200f35875"
+    }
+  },
+  "original_work_record_unchanged": true,
+  "creation_package_sha256": "918b748e413eeb3364c74883cddd16fab4ec2f7103899553208820d07c9f1ac2",
+  "final_package_readback": {
+    "original_and_revised_preserved": true,
+    "original_operation_preserved": true,
+    "skill_rediscovered": true,
+    "other_states_preserved": 31
+  },
+  "current_mcp": {
+    "runtime_version": "0.12.3",
+    "entry": "当前Codex会话既有稳定MCP",
+    "package_sha256": "b3b49e1f0ad1d1e46772b6183f290643f0b884a18842858d5a4f07cf8acbb251",
+    "capabilities_sha256": "6dc28b07e322508df3ebf78fe4712544486dbae9eaad9fd21c51661ded66fe73",
+    "skill_sha256": "8561e87d025a5338c3b48b5f5e375b3f0949f834b994f210564af3fce4ed80eb",
+    "skill_read": true,
+    "hot_discovery": true,
+    "revised": {
+      "object_id": "ext_1d650b88-f776-47ba-a9a2-cb828d2f3f3f",
+      "revision": 2,
+      "sha256": "bc62d1bd5ef6c4f09911a674743874b340a93ccfcd2be5483cddda2cab70c688"
+    },
+    "get_project_sha256_verified": true
+  }
+}

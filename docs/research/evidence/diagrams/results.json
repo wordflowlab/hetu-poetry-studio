@@ -1,0 +1,21 @@
+{
+  "renderer": "Mermaid 11.15.0",
+  "results": [
+    {
+      "file": "02-0.mmd",
+      "rendered": true
+    },
+    {
+      "file": "03-0.mmd",
+      "rendered": true
+    },
+    {
+      "file": "05-0.mmd",
+      "rendered": true
+    },
+    {
+      "file": "09-0.mmd",
+      "rendered": true
+    }
+  ]
+}
